@@ -43,4 +43,33 @@ print("original:",phrase)
 
 
 """Working with Numbers"""
-# time stamp: 39:00
+
+'''Converting a number to string => str(number)'''
+my_num = 5;
+# print(str(my_num))
+
+'''Absolute value[-5 == 5] of the number => abs(number)'''
+my_num = -5
+# print(abs(my_num))
+
+'''power of a number => pow(number, power)'''
+# print(pow(3,2))
+
+'''max or min of two numbers => max(num1, num2) , min(num1,num2)'''
+# print(max(5,3))
+# print(min(3,6))
+
+'''round off the number => round(number)'''
+# print(round(3.245))
+
+'''after importing math lib.'''
+from math import *
+'''floor of a number => floor(number)'''
+# print(floor(4.5))
+'''ceiling of a number => ceil(number)'''
+# print(ceil(4.5))
+'''sq root of any number => sqrt(number)'''
+# print(sqrt(36))
+
+"""Getting input from the user"""
+#timestamp: 50:00
