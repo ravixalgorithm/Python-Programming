@@ -1,6 +1,7 @@
 """Start:"""
 # print("Hello world");
 
+
 """Drawing a Shape"""
 # print("    /|")
 # print("   / |")
@@ -8,14 +9,16 @@
 # print(" /   |")
 # print("/____|")
 
+
 """Variables and DATA TYPES"""
-# character_name = "Ravi";
-# character_age = 20;
+character_name = "Ravi";
+character_age = 20;
 # print("My name is",character_name,"and I am",character_age,"years old.")
+
 
 """Working with Strings"""
 phrase = "Giraffe Academy" #str
-print("original:",phrase)
+# print("original:",phrase)
 
 '''to lower case => str.lower()'''
 # print(phrase.lower())
@@ -71,5 +74,38 @@ from math import *
 '''sq root of any number => sqrt(number)'''
 # print(sqrt(36))
 
+
 """Getting input from the user"""
-#timestamp: 50:00
+# name = input("Enter the name: ")
+# age = input("Enter the Age: ")
+# print("Hello",name,", you are",age,"years old")
+
+
+"""Basic Calculator"""
+# num1 = input("Enter number 1: ")
+# num2 = input("Enter number 2: ")
+# sum = float(num1) + float(num2)
+# print(sum)
+
+
+"""Mad Libs Game"""
+# nounSingular = input("Enter a Singular Noun: ")
+# nounPlural = input("Enter the Plural Noun: ")
+# adjective = input("Enter an Adjective: ")
+
+# print("Feeling adventurous, I told the barber for a",adjective,"new look. His grin could curdle milk. Snip, snip... CRUNCH! Turns out, he clipped off a chunk of hair and a stray",nounSingular,".  He tried to cover it with a",nounPlural,".  Needless to say, I left looking like a startled poodle, not a",nounSingular)
+
+
+"""Lists"""
+friends = ["prince","yash","bipin","mahin","Priyanshu"] #list
+'''Print full list'''
+print(friends)
+
+'''Print particular item => list[index]'''
+print(friends[0])
+
+'''print a list in range => list[start:end] *end not included* '''
+print(friends[1:4])
+
+
+"""List Functions"""
