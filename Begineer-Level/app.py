@@ -99,13 +99,84 @@ from math import *
 """Lists"""
 friends = ["prince","yash","bipin","mahin","Priyanshu"] #list
 '''Print full list'''
-print(friends)
+# print(friends)
 
 '''Print particular item => list[index]'''
-print(friends[0])
+# print(friends[0])
 
 '''print a list in range => list[start:end] *end not included* '''
-print(friends[1:4])
+# print(friends[1:4])
 
 
 """List Functions"""
+lucky_number = [4, 8, 15, 16, 23, 42] #list2
+friends = ["Kevin","Karen","Jim","Jim","Oscar","Toby"] #list1
+'''add another list into one => list1.extend(list2)'''
+# friends.extend(lucky_number)
+# print(friends)
+
+'''add a element to a list => list.append(element)'''
+# friends.append("Ruchi")
+# print(friends)
+
+'''add a element to a specific position => list.insert(index,element)'''
+# friends.insert(1, "Kelly");
+# print(friends)
+
+'''remove a element from a list => list.remove(element)'''
+# friends.remove("Jim")
+# print(friends)
+
+'''remove every element out of list(empty list) => list.clear()'''
+# friends.clear()
+# print(friends)
+
+'''remove a element => list.pop(index) *if no index remove the last one*'''
+# friends.pop(0)
+# print(friends)
+
+'''check a certain element => list.index(element)'''
+# print(friends.index("Kevin"))
+
+'''count the occurance of a element => list.count(element)'''
+# print(friends.count("Jim"))
+
+lucky_number = [4, -8, 15, -16, 37, 56, 23, 42]
+'''sorting a list => list.sort()'''
+# lucky_number.sort()
+# print(lucky_number)
+
+'''reversing a list => list.reverse()'''
+# lucky_number.reverse()
+# print(lucky_number)
+
+'''Copying a list => list2 = list.copy()'''
+# numbers2 = lucky_number.copy()
+# print(numbers2)
+
+
+"""Tuples""" #tuples are immutable (values cannot be changed)
+tup = (2,3)
+# tup[0] = 10; #error
+# print(tup)
+'''list of tuples'''
+newTup = [(2,3),(4,6),(6,9)]
+# newTup[0] = (6,7) #no error as this is a element of list
+# print(newTup)
+
+
+"""Functions"""
+def say_hi(name, age):
+    print("Hello",name,"You are",age)
+
+say_hi("Mike", 35)
+say_hi("Lucy", 70)
+
+
+
+
+
+
+
+
+
