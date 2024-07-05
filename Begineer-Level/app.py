@@ -166,11 +166,11 @@ newTup = [(2,3),(4,6),(6,9)]
 
 
 """Functions"""
-def say_hi(name, age):
-    print("Hello",name,"You are",age)
+# def say_hi(name, age):
+#     print("Hello",name,"You are",age)
 
-say_hi("Mike", 35)
-say_hi("Lucy", 70)
+# say_hi("Mike", 35)
+# say_hi("Lucy", 70)
 
 
 
