@@ -173,7 +173,78 @@ newTup = [(2,3),(4,6),(6,9)]
 # say_hi("Lucy", 70)
 
 
+"""If-Else"""
+# is_male = True
+# is_tall = False
+#
+# if is_male and is_tall:
+#     print("You are a tall male")
+# elif is_male and not(is_tall):
+#     print("You are a short male")
+# else:
+#     print("You are either not male or tall or both")
 
+
+"""if-else & comparison"""
+# def max_num(num1, num2, num3):
+#     if num1>num2 and num1>num3:
+#         return num1
+#     elif num2>num1 and num2>num3:
+#         return num2
+#     else:
+#         return num3
+#
+# print(max_num(300,40,5))
+
+
+"""Better Calculator"""
+# num1 = float(input("Enter number 1: "))
+# op = input("Enter the operator: ")
+# num2 = float(input("Enter number 2: "))
+#
+# if op == "+":
+#     print(num1 + num2)
+# elif op == "-":
+#     print(num1 - num2)
+# elif op == "*":
+#     print(num1*num2)
+# elif op == "/":
+#     print(num1/num2)
+# else:
+#     print("Invalid Operator")
+
+
+"""Dictionaries => key: value pair"""
+monthConversion = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sept": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+# print(monthConversion["Mar"]) #March
+# print(monthConversion.get("Mar")) #March
+# print(monthConversion.get("Luv")) #None
+# print(monthConversion.get("Luv","Not a valid Key")) #Not a valid Key
+
+
+"""While Loop"""
+i = 1
+while i<=10:
+    print(i)
+    i+=1
+
+print("Done with loop")
+
+
+"""Building a Guessing game"""
 
 
 
